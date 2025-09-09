@@ -1,6 +1,6 @@
 {
   "name": "@dimitristerzz/dt-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A collection of utility functions made for pure convinience by Dimitris Terzidis.",
   "main": "index.ts",
   "bin": {
