@@ -1,0 +1,13 @@
+{
+  "name": "@dimitristerzz/dt-utils",
+  "version": "1.0.0",
+  "description": "A collection of utility functions made for pure convinience by Dimitris Terzidis.",
+  "main": "index.ts",
+  "bin": {
+    "dtutils": "cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
