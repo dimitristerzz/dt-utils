@@ -1,1 +1,0 @@
-export { rgbToHex } from "./rgbToHex.js";

@@ -1,1 +1,1 @@
-export { rgbToHex } from "./rgbtohex/index.js";
+export { color } from "./color/index.js";
