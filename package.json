@@ -1,13 +1,26 @@
 {
   "name": "@dimitristerzz/dt-utils",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A collection of utility functions made for pure convinience by Dimitris Terzidis.",
-  "main": "index.ts",
+  "main": "./dist/index.js",
   "bin": {
-    "dtutils": "cli.js"
+    "dtutils": "./dist/cli.js"
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "convinience",
+    "utilities"
+  ],
+  "author": "dimitristerzz",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^24.3.1",
+    "typescript": "^5.9.2"
+  }
 }
