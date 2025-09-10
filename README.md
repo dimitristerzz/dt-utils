@@ -14,6 +14,6 @@ function Counter() {
 }
 ```
 
-## Documentation
+## Utilities
 
-https://github.com/dimitristerzz/dt-utils
+**Color Utilities:** rgbtohex, hextorgb

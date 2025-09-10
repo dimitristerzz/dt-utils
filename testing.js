@@ -1,10 +1,13 @@
-import { dateTimeFormat } from "./dist/index.js";
-import { getServerUtcTime } from "./dist/datetimeformat/getServerUtcTime.js";
+import { rgbToHex } from "./dist/rgbtohex/rgbToHex.js";
 
 
 async function main() {
-  const serverTime = await getServerUtcTime();
-  console.log("Server UTC time:", serverTime.toISOString());
+  const red = 255;
+  const green = 100;
+  const blue = 50;
+
+  const hexColor = rgbToHex(red, green, blue);
+  console.log(`RGB(${red}, ${green}, ${blue}) -> Hex: ${hexColor}`);
 }
 
 main();

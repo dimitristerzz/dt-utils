@@ -1,10 +1,10 @@
 {
   "name": "@dimitristerzz/dt-utils",
-  "version": "1.0.3",
+  "version": "1.0.5",
   "description": "A collection of utility functions made for pure convinience by Dimitris Terzidis.",
   "main": "./dist/index.js",
   "bin": {
-    "dtutils": "./dist/cli.js"
+    "dtutils": "dist/cli.js"
   },
   "scripts": {
     "build": "tsc"
@@ -22,5 +22,13 @@
   "devDependencies": {
     "@types/node": "^24.3.1",
     "typescript": "^5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitristerzz/dt-utils.git"
+  },
+  "homepage": "https://github.com/dimitristerzz/dt-utils#readme",
+  "bugs": {
+    "url": "https://github.com/dimitristerzz/dt-utils/issues"
   }
 }
