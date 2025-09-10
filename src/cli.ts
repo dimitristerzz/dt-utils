@@ -3,6 +3,7 @@
 const commands: Record<string, string> = {
   "dtutils help <command>": "Show help for a specific command",
   "rgbtohex": "Convert RGB values to HEX color code",
+  "hextorgb": "Convert HEX color code to RGB values",
 };
 
 const args = process.argv.slice(2);
