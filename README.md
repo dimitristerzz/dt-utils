@@ -2,7 +2,9 @@
 
 DT-Utils is a collection of utility functions made for pure convinience by Dimitris Terzidis.
 
-**Note:** 
+**Note:** This package uses ES modules. To use it in Node.js:
+- Add `"type": "module"` to your project's package.json **OR**
+- Rename your entry file to `.mjs`
 
 ## Usage
 
