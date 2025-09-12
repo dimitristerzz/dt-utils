@@ -1,1 +1,1 @@
-export { color } from "./color/index.js";
+export { color } from "./utilities/color/index.js";
