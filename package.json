@@ -4,10 +4,10 @@
   "description": "A collection of utility functions made for pure convinience by Dimitris Terzidis.",
   "exports": {
     ".": "./build/index.js",
-    "./*": "./build/*.js"
+    "./*": "./build/*"
   },
   "bin": {
-    "dtutils": "dist/cli.js"
+    "dtutils": "build/cli.js"
   },
   "scripts": {
     "build": "tsc"
