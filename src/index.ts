@@ -1,1 +1,2 @@
-export { color } from "./utilities/color/index.js";
+export { formatColor } from "./utilities/formatColor.js";
+export { randomInt } from "./utilities/randomInt.js";
