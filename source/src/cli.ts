@@ -2,15 +2,24 @@
 
 const commands: Record<string, string> = {
   "dtutils help <command>": "Show help for a specific command",
-  "rgbtohex": "Convert RGB values to HEX color code",
-  "hextorgb": "Convert HEX color code to RGB values",
+  rgbtohex: "Convert RGB values to HEX color code",
+  hextorgb: "Convert HEX color code to RGB values",
 };
 
 const args = process.argv.slice(2);
 
 if (args.length === 0) {
+  console.log(`
+██████╗ ████████╗      ██╗   ██╗████████╗██╗██╗     ███████╗
+██╔══██╗╚══██╔══╝      ██║   ██║╚══██╔══╝██║██║     ██╔════╝
+██║  ██║   ██║   █████╗██║   ██║   ██║   ██║██║     ███████╗
+██║  ██║   ██║   ╚════╝██║   ██║   ██║   ██║██║     ╚════██║
+██████╔╝   ██║         ╚██████╔╝   ██║   ██║███████╗███████║
+╚═════╝    ╚═╝          ╚═════╝    ╚═╝   ╚═╝╚══════╝╚══════╝
+`);
+
   console.log("Run 'dtutils help' to see all commands.");
-  process.exit(2); // misuse: user didn't provide any command
+  process.exit(2);
 }
 
 const [cmd, arg] = args;
