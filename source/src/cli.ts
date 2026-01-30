@@ -8,16 +8,25 @@ const commands: Record<string, string> = {
 
 const args = process.argv.slice(2);
 
-if (args.length === 0) {
-  console.log(`
-██████╗ ████████╗      ██╗   ██╗████████╗██╗██╗     ███████╗
-██╔══██╗╚══██╔══╝      ██║   ██║╚══██╔══╝██║██║     ██╔════╝
-██║  ██║   ██║   █████╗██║   ██║   ██║   ██║██║     ███████╗
-██║  ██║   ██║   ╚════╝██║   ██║   ██║   ██║██║     ╚════██║
-██████╔╝   ██║         ╚██████╔╝   ██║   ██║███████╗███████║
-╚═════╝    ╚═╝          ╚═════╝    ╚═╝   ╚═╝╚══════╝╚══════╝
-`);
+import figlet from "figlet";
+import gradient from "gradient-string";
 
+const text = figlet.textSync("DT-UTILS", {
+  font: "ANSI Shadow",
+});
+
+const myGradient = gradient([
+  "#3588d5",
+  "#6386dd",
+  "#6f83da",
+  "#8879d2",
+  "#a670b1",
+  "#b26ca4",
+  "#e91e63",
+]);
+
+if (args.length === 0) {
+  console.log(myGradient.multiline(text));
   console.log("Run 'dtutils help' to see all commands.");
   process.exit(2);
 }
