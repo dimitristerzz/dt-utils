@@ -1,7 +1,7 @@
 {
   "name": "@dimitristerzz/dt-utils",
-  "version": "1.0.17",
-  "description": "A collection of utility functions made for pure convinience by Dimitris Terzidis.",
+  "version": "1.0.19",
+  "description": "A collection of utility functions made for pure convenience by Dimitris Terzidis.",
   "exports": {
     ".": "./dist/index.js",
     "./*": "./dist/*.js"
@@ -16,7 +16,7 @@
     "dist"
   ],
   "keywords": [
-    "convinience",
+    "convenience",
     "utilities"
   ],
   "author": "dimitristerzz",
