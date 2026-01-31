@@ -22,7 +22,6 @@ const myGradient = gradient([
   "#8879d2",
   "#a670b1",
   "#b26ca4",
-  "#e91e63",
 ]);
 
 if (args.length === 0) {
