@@ -1,26 +1,35 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: oklch(0.7255 0.2356 142.94);
-  --color-background: oklch(0% 0 0);
-  --color-text: oklch(100% 0 0);
+  --gradient: linear-gradient(
+    90deg,
+    var(--color-primary-1) 0%,
+    var(--color-primary-2) 20%,
+    var(--color-primary-3) 40%,
+    var(--color-primary-4) 60%,
+    var(--color-primary-5) 80%,
+    var(--color-primary-6) 100%
+  );
+  --color-primary-1: oklch(0.6135 0.1413 249.93);
+  --color-primary-2: oklch(0.6337 0.1371 266.06);
+  --color-primary-3: oklch(0.6332 0.1327 272.33);
+  --color-primary-4: oklch(0.6281 0.1315 289.81);
+  --color-primary-5: oklch(0.6246 0.1125 320.65);
+  --color-primary-6: oklch(0.626 0.1152 334.53);
+  --color-background: oklch(0 0 0);
+  --color-text: oklch(100 0 0);
   --height-screen-dvh: 100svh;
   --font-text: "Byte Bounce", "sans-serif";
 }
 
-/* @utility {
-  .text-gradient {
-    background: linear-gradient(
-      90deg,
-      #3588d5 0%,
-      #6386dd 20%,
-      #6f83da 40%,
-      #8879d2 60%,
-      #a670b1 80%,
-      #b26ca4 100%
-    );
+@layer utilities {
+  .text-primary {
+    background: var(--gradient);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
   }
-} */
+}
 
 @font-face {
   font-family: "Byte Bounce";
@@ -75,6 +84,6 @@
 }
 
 ::selection {
-  background-color: var(--color-primary);
+  background: var(--color-primary-3);
   color: var(--color-background);
 }
