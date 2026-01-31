@@ -1,16 +1,40 @@
 {
-  "name": "dt-utils",
-  "type": "module",
-  "version": "0.0.1",
+  "name": "@dimitristerzz/dt-utils",
+  "version": "1.0.22",
+  "description": "DT-Utils is a collection of utility functions purely made for convinience.",
+  "exports": {
+    ".": "./dist/index.js",
+    "./*": "./dist/*.js"
+  },
+  "bin": {
+    "dtutils": "dist/cli.js"
+  },
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
-    "astro": "astro"
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "convenience",
+    "utilities"
+  ],
+  "author": "dimitristerzz",
+  "license": "ISC",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimitristerzz/dt-utils.git"
+  },
+  "homepage": "https://github.com/dimitristerzz/dt-utils#readme",
+  "bugs": {
+    "url": "https://github.com/dimitristerzz/dt-utils/issues"
   },
   "dependencies": {
-    "@tailwindcss/vite": "^4.1.12",
-    "astro": "^5.15.4",
-    "tailwindcss": "^4.1.12"
+    "@types/node": "^24.3.1",
+    "figlet": "^1.10.0",
+    "gradient-string": "^3.0.0",
+    "typescript": "^5.9.2"
   }
 }
