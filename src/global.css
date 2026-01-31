@@ -8,6 +8,20 @@
   --font-text: "Byte Bounce", "sans-serif";
 }
 
+@utility {
+  .text-gradient {
+    background: linear-gradient(
+      90deg,
+      #3588d5 0%,
+      #6386dd 20%,
+      #6f83da 40%,
+      #8879d2 60%,
+      #a670b1 80%,
+      #b26ca4 100%
+    );
+  }
+}
+
 @font-face {
   font-family: "Byte Bounce";
   src: url("/Byte_Bounce.woff2") format("woff2");
