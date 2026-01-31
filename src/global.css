@@ -8,7 +8,7 @@
   --font-text: "Byte Bounce", "sans-serif";
 }
 
-@utility {
+/* @utility {
   .text-gradient {
     background: linear-gradient(
       90deg,
@@ -20,7 +20,7 @@
       #b26ca4 100%
     );
   }
-}
+} */
 
 @font-face {
   font-family: "Byte Bounce";
