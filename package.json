@@ -1,6 +1,6 @@
 {
   "name": "@dimitristerzz/dt-utils",
-  "version": "1.0.24",
+  "version": "1.0.25",
   "description": "DT-Utils is a collection of utility functions purely made for convinience.",
   "exports": {
     ".": "./dist/index.js",
