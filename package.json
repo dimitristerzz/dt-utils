@@ -1,6 +1,6 @@
 {
   "name": "@dimitristerzz/dt-utils",
-  "version": "1.0.23",
+  "version": "1.0.24",
   "description": "DT-Utils is a collection of utility functions purely made for convinience.",
   "exports": {
     ".": "./dist/index.js",
@@ -32,9 +32,14 @@
     "url": "https://github.com/dimitristerzz/dt-utils/issues"
   },
   "dependencies": {
+    "@dimitristerzz/dt-utils": "^1.0.24",
     "@types/node": "^24.3.1",
     "figlet": "^1.10.0",
     "gradient-string": "^3.0.0",
     "typescript": "^5.9.2"
+  },
+  "funding": {
+    "type": "individual",
+    "url": "https://paypal.me/dimitristerzzz"
   }
 }
