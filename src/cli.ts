@@ -26,7 +26,7 @@ const myGradient = gradient([
 
 if (args.length === 0) {
   console.log(myGradient.multiline(text));
-  console.log("Run 'dtutils help' to see all commands.");
+  console.log("Run 'dtutils help'to see all commands.");
   process.exit(2);
 }
 
