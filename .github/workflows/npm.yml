@@ -1,8 +1,8 @@
 name: Deploy to NPM Registry
 
 on:
-  release:
-    types: [created, published]
+  push:
+    branches: ["master"]
   workflow_dispatch:
 
 permissions:
