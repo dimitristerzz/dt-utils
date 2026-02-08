@@ -2,7 +2,7 @@ name: Deploy to NPM Registry
 
 on:
   release:
-    types: [created, published]
+    types: [released]
   workflow_dispatch:
 
 permissions:
