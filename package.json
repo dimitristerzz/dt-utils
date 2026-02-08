@@ -11,7 +11,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "bump": "git add . && git commit -m 'Save work before version bump' || echo 'No changes to commit' && npm version patch -m 'Release %s' && git push origin main --tags"
   },
   "files": [
     "dist"
