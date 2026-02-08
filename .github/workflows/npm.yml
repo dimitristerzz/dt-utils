@@ -41,9 +41,6 @@ jobs:
       - name: Build package
         run: bun run build
 
-      - name: Authenticate with npm using OIDC
-        run: npm login --auth-type=oidc
-
       # 6. Publish to npm using OIDC
       - name: Publish package
         run: npm publish
