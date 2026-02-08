@@ -47,4 +47,4 @@ jobs:
 
       # 6. Publish to npm using OIDC
       - name: Publish package
-        run: bun publish
+        run: npm publish
