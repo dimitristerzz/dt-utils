@@ -2,13 +2,9 @@ name: Deploy to NPM Registry
 
 on:
   push:
-    branches: ["master"]
     tags:
       - "v*"
-    paths:
-      - "src/**"
-      - "package.json"
-      - "tsconfig.json"
+    branches: ["master"]
   workflow_dispatch:
 
 permissions:
