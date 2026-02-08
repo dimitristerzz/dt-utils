@@ -1,11 +1,11 @@
-# `dt-utils`
-DT-Utils is a collection of utility functions purely made for convinience.
+# `DTUtils`
+DTUtils is a collection of utility functions purely made for convinience.
 
 **Note:** This package uses ES modules. To use it in Node.js add `"type": "module"` to your project's package.json or use .mjs extenstions.
 
 ## Usage
 ```js
-import { formatColor } from "@dimitristerzz/dt-utils";
+import { formatColor } from "@dimitristerzz/dtutils";
 
 console.log(formatColor("#FFFFFF", "hsl"));
 console.log(formatColor("255,255,255", "hsl"));

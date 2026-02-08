@@ -3,20 +3,19 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "@dimitristerzz/dt-utils",
+      "name": "@dimitristerzz/dtutils",
       "dependencies": {
-        "@dimitristerzz/dt-utils": "^1.0.24",
-        "@types/node": "^24.3.1",
         "figlet": "^1.10.0",
         "gradient-string": "^3.0.0",
+      },
+      "devDependencies": {
+        "@types/node": "^24.3.1",
         "typescript": "^5.9.2",
       },
     },
   },
   "packages": {
-    "@dimitristerzz/dt-utils": ["@dimitristerzz/dt-utils@1.0.24", "", { "dependencies": { "@types/node": "^24.3.1", "figlet": "^1.10.0", "gradient-string": "^3.0.0", "typescript": "^5.9.2" }, "bin": { "dtutils": "dist/cli.js" } }, "sha512-p5SxmJOudThsHAHp1Dp+T/7Rz7x5R3305wfLy2BCpzNWXD7bZVG6caykWWKMgVaWuYhh6o/9g2TWYtfC7j+ZUg=="],
-
-    "@types/node": ["@types/node@24.10.9", "", { "dependencies": { "undici-types": "~7.16.0" } }, "sha512-ne4A0IpG3+2ETuREInjPNhUGis1SFjv1d5asp8MzEAGtOZeTeHVDOYqOgqfhvseqg/iXty2hjBf1zAOb7RNiNw=="],
+    "@types/node": ["@types/node@24.10.12", "", { "dependencies": { "undici-types": "~7.16.0" } }, "sha512-68e+T28EbdmLSTkPgs3+UacC6rzmqrcWFPQs1C8mwJhI/r5Uxr0yEuQotczNRROd1gq30NGxee+fo0rSIxpyAw=="],
 
     "@types/tinycolor2": ["@types/tinycolor2@1.4.6", "", {}, "sha512-iEN8J0BoMnsWBqjVbWH/c0G0Hh7O21lpR2/+PrvAVgWdzL7eexIFm4JN/Wn10PTcmNdtS6U67r499mlWMXOxNw=="],
 

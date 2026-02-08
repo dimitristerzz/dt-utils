@@ -11,7 +11,7 @@ const args = process.argv.slice(2);
 import figlet from "figlet";
 import gradient from "gradient-string";
 
-const text = figlet.textSync("DT-UTILS", {
+const text = figlet.textSync("DTUTILS", {
   font: "ANSI Shadow",
 });
 

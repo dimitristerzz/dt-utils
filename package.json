@@ -4,7 +4,7 @@
     "registry": "https://npm.pkg.github.com"
   },
   "version": "0.0.1",
-  "description": "DT-Utils is a collection of utility functions purely made for convinience.",
+  "description": "DTUtils is a collection of utility functions purely made for convinience.",
   "exports": {
     ".": "./dist/index.js",
     "./*": "./dist/*.js"
@@ -31,11 +31,11 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dimitristerzz/dt-utils.git"
+    "url": "git+https://github.com/dimitristerzz/dtutils.git"
   },
-  "homepage": "https://dimitristerzz.github.io/dt-utils/",
+  "homepage": "https://dimitristerzz.github.io/dtutils/",
   "bugs": {
-    "url": "https://github.com/dimitristerzz/dt-utils/issues"
+    "url": "https://github.com/dimitristerzz/dtutils/issues"
   },
   "dependencies": {
     "figlet": "^1.10.0",
