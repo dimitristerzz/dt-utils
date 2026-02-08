@@ -1,6 +1,6 @@
 {
   "name": "@dimitristerzz/dt-utils",
-  "version": "1.0.32",
+  "version": "1.0.31",
   "description": "DT-Utils is a collection of utility functions purely made for convinience.",
   "exports": {
     ".": "./dist/index.js",
@@ -12,9 +12,9 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "patch": "git add . && git commit -m 'Save work before version bump' && npm version patch -m 'Release %s' && git push origin master && gh release create v$(node -p \"require('./package.json').version\") --title 'v$(node -p \"require('./package.json').version\")' --notes 'Release v$(node -p \"require('./package.json').version\")'",
-    "minor": "git add . && git commit -m 'Save work before version bump' && npm version minor -m 'Release %s' && git push origin master && gh release create v$(node -p \"require('./package.json').version\") --title 'v$(node -p \"require('./package.json').version\")' --notes 'Release v$(node -p \"require('./package.json').version\")'",
-    "major": "git add . && git commit -m 'Save work before version bump' && npm version major -m 'Release %s' && git push origin master && gh release create v$(node -p \"require('./package.json').version\") --title 'v$(node -p \"require('./package.json').version\")' --notes 'Release v$(node -p \"require('./package.json').version\")'"
+    "patch": "git add . && git commit -m 'Save work before version bump' ",
+    "minor": "git add . && git commit -m 'Save work before version bump' && npm version minor -m 'Release %s' && git push origin master --tags",
+    "major": "git add . && git commit -m 'Save work before version bump' && npm version major -m 'Release %s' && git push origin master --tags"
   },
   "files": [
     "dist"
