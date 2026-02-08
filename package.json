@@ -1,8 +1,5 @@
 {
   "name": "@dimitristerzz/dtutils",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "version": "0.0.1",
   "description": "DTUtils is a collection of utility functions purely made for convinience.",
   "exports": {
@@ -15,6 +12,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
+    "npm": "npm publish --access public --registry=https://registry.npmjs.org/",
+    "github": "npm publish --registry=https://npm.pkg.github.com",
     "patch": "git add . && git commit -m 'Save work before version bump' && git push && npm version patch -m 'Release %s' && git push origin master --tags",
     "minor": "git add . && git commit -m 'Save work before version bump' && npm version minor -m 'Release %s' && git push origin master --tags",
     "major": "git add . && git commit -m 'Save work before version bump' && npm version major -m 'Release %s' && git push origin master --tags"
@@ -26,6 +25,9 @@
     "convenience",
     "utilities"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "dimitristerzz",
   "license": "ISC",
   "type": "module",
