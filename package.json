@@ -1,6 +1,9 @@
 {
   "name": "@dimitristerzz/dtutils",
-  "version": "1.0.37",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "version": "0.0.1",
   "description": "DT-Utils is a collection of utility functions purely made for convinience.",
   "exports": {
     ".": "./dist/index.js",
