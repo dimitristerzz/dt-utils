@@ -7,7 +7,7 @@
     "./*": "./dist/*.js"
   },
   "bin": {
-    "dtutils": "dist/cli.js"
+    "dtutils": "./dist/cli.js"
   },
   "scripts": {
     "build": "tsc",
@@ -32,11 +32,12 @@
     "url": "https://github.com/dimitristerzz/dt-utils/issues"
   },
   "dependencies": {
-    "@dimitristerzz/dt-utils": "^1.0.24",
-    "@types/node": "^24.3.1",
-    "figlet": "^1.10.0",
-    "gradient-string": "^3.0.0",
-    "typescript": "^5.9.2"
+  "figlet": "^1.10.0",
+  "gradient-string": "^3.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "@types/node": "^24.3.1"
   },
   "funding": {
     "type": "individual",
