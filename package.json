@@ -12,7 +12,7 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "bump": "git add . && npm version patch -m 'Release %s' && git push origin master --tags"
+    "bump": "git add . && git commit -m 'Save work before version bump' && npm version patch -m 'Release %s' && git push origin master --tags"
   },
   "files": [
     "dist"
