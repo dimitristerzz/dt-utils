@@ -12,9 +12,9 @@
   "scripts": {
     "build": "tsc",
     "dev": "tsc --watch",
-    "patch": "git add . && git commit -m 'Save work before version bump' && git push && 'C:\\Program Files\\nodejs\\npm.cmd' version patch -m 'Release %s' && git push origin master --tags",
-    "minor": "git add . && git commit -m 'Save work before version bump' && 'C:\\Program Files\\nodejs\\npm.cmd' version minor -m 'Release %s' && git push origin master --tags",
-    "major": "git add . && git commit -m 'Save work before version bump' && 'C:\\Program Files\\nodejs\\npm.cmd' version major -m 'Release %s' && git push origin master --tags"
+    "patch": "git add . && git commit -m 'Save work before version bump' && git push && npm version patch -m 'Release %s' && git push origin master --tags",
+    "minor": "git add . && git commit -m 'Save work before version bump' && npm version minor -m 'Release %s' && git push origin master --tags",
+    "major": "git add . && git commit -m 'Save work before version bump' && npm version major -m 'Release %s' && git push origin master --tags"
   },
   "files": [
     "dist"
